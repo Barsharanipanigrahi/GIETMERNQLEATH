@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JYOTI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><h3>JYOTI</h3></div>
+        <ul class="nav-link">
+            <li><a href="#Profile">profile</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skill">Skill</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Blog">Blog</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="profile">
+        <div class="profile-content">
+            <img src="asset/CollageMaker_20200625_231331067.jpg" alt="profile image">
+            <h1>JYOTI</h1>
+            <P> UI UX Designer| grafic Designer| web developer</P>
+            <button>Hire Me</button>
+            <a href=""><button>My CV</button></a>
+        </div>
+    
+    </section>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-timeline">
+            <div class="education-card">
+                <h3>Master of Computer Application</h3>
+                <p><strong>BPUT</strong></p>
+                <p><strong>GIET</strong>-2024 to 2026</p>
+                <ul>
+                    <li><strong>CGPA:</strong>9.5</li>
+                    <li><strong>course:</strong>specialized in software development,DBMS,Data structure & algorithm,Computer Network, java, c programming</li>
+                    <li>complete a capstone project on <em>"AI-Base predictive Analysitic"</em>with high praise from feculty</li>
+                       </ul>
+                       </div>
+                       
+                       <div class="education-card">
+                        <h3>10th</h3>
+                        <p><strong>BSE</strong></p>
+                        <p><strong>SARASWATI SISHU VIDYA MANDIR</strong>-2016 to 2018</p>
+                        <ul>
+                            <li><strong>CGPA:</strong>strong>9.5</strong></li>
+                            <li><strong>course</strong>MIL,SCIENCE,MATH,ENGLISH,HINDI</li>
+                            <li>complete a capstone project on <em>"AI-Base predictive Analysitic</em>with high praise from feculty</li>
+                        </ul>
+                       </div>
+
+                       <div class="education-card">
+                        <h3>+2</h3>
+                        <p><strong>BPUT</strong></p>
+                        <p><strong>GIET</strong>-2024 TO 2026</p>
+                        <UL>
+                            <li><strong>CGPA</strong></li>
+                            <li><strong>course:</strong>specialized in software development,DBMS,Data structure & algorithm,Computer Network,java, c programming</li>
+                            <li>complete a capstone project on <em>"AI-Base predictive Analysitic"</em>with high praise from feculty</li>
+                        </UL>
+                       </div>
+        </div>
+    </section>
+    <section id="Skill" class="skill-education">
+        <h2>Skill</h2>
+        <div class="skill-container">
+            <div class="skill-card">
+                <img src=""alt="">
+                <p>HTML</p>
+                <div class="progress-bar">
+                <div class="progress-fill" style="width:90%"></div>
+            </div>
+
+            <div class="skill-card">
+                <img src=""alt="">
+                <p>HTML</p>
+                <div class="progress-bar">
+                <div class="progress-fill" style="width:90%"></div>
+            </div>
+
+            <div class="skill-card">
+                <img src=""alt="">
+                <p>HTML</p>
+                <div class="progress-bar">
+                <div class="progress-fill" style="width:90%"></div>
+            </div>
+
+            <div class="skill-card">
+                <img src=""alt="">
+                <p>HTML</p>
+                <div class="progress-bar">
+                <div class="progress-fill" style="width:90%"></div>
+            </div>  
+
+        </div>
+       
+    </section>
+    <section id="project">
+        <h2>My project</h2>
+        <div class="group-card">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Project</h3>
+                    <p>A brief description of the project goes here, this is an overview of what the project is about</p>
+                    <br>
+                    <a href="">Source code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Project</h3>
+                    <p>A brief description of the project goes here, this is an overview of what the project is about</p>
+                    <br>
+                    <a href="">Source code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Project</h3>
+                    <p>A brief description of the project goes here, this is an overview of what the project is about</p>
+                    <br>
+                    <a href="">Source code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Project</h3>
+                    <p>A brief description of the project goes here, this is an overview of what the project is about</p>
+                    <br>
+                    <a href="">Source code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="" alt="project-image">
+                </div>
+                <div class="project-description">
+                    <h3>Project</h3>
+                    <p>A brief description of the project goes here, this is an overview of what the project is about</p>
+                    <br>
+                    <a href="">Source code</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>
