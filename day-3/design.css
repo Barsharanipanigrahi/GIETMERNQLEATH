@@ -1,0 +1,67 @@
+@import url(design2.css);
+
+/* p{
+    background-color: rgb(78, 38, 78);
+    color: rgb(19, 1, 1);
+}
+.para{
+    background-color: burlywood;
+}
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+#lett{
+    font-size: 12px;
+}
+h3,strong,p{
+color: pink;
+}
+b{
+    color: red;
+}
+*{
+    color: yellow;
+} */
+/* .parent p{
+    background-color: violet;
+}
+.parent>p{
+    background-color: yellowgreen;
+} */
+ /* adjacent sibling */
+ .parent + p{
+    background-color: blueviolet;
+ }
+ /* general sibling */
+ .parent~p{
+    background-color: greenyellow;
+ }
+ .pseudo{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+ }
+ .pseudo:hover{
+    background-color: red;
+ }
+ .pseudo:active{
+    background-color: green;
+ }
+ input:focus{
+    background-color: paleturquoise;
+ }
+ ul li:first-child{
+    background-color: maroon;
+
+ }
+ ul li:last-child{ 
+    background-color: goldenrod;
+}
+
+ul li:nth-child(even){ 
+    background-color: rgb(67, 63, 53);
+}
+ul li:nth-child(odd){ 
+    background-color: goldenrod;}

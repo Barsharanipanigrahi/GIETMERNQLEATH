@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css -->
+     <!-- <style>
+        h2{
+          color: aquamarine;  
+          font-size: 50px;
+        }
+     </style> -->
+     <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <!-- 1.inline css
+     2.internal css
+     3.external css
+     4.import statement -->
+     <!-- inline css -->
+     <h1 style="background-color: red;">this is heading</h1>
+      <h2>hello this is another heading</h2>
+     <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis officia nostrum qui dignissimos veniam exercitationem nisi eaque veritatis obcaecati aspernatur deserunt, voluptates laudantium maiores, optio quae iste, incidunt cumque at.</p>
+
+     <!-- selector -->
+      <!-- 1.simple selector
+              =>id selector
+              =>class name selector
+              =>tag name selector
+              =>group name slector
+              =>universal selector
+           2.combinator selector 
+           3.attribute selector
+           4.pseudo class selector
+           5.pseudo element selector  -->
+           <div id="box"> 
+            <h4 id="lett">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, velit!</h4>
+           </div>
+           <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, voluptatibus.</p>
+             
+           <h3>content</h3>
+           <b>this is bold</b>
+           <strong>this is strong</strong>
+           <p>Lorem ipsum dolor sit amet.</p>
+
+<!-- combinator selector 
+     =>descendent selector
+     =>direct child selector
+     =>adjacent sibling selector
+     =>general sibling selector-->
+<div class="parent">
+ <p>parent</p>
+   <div class="child">
+    <p>indirect child</p>
+   </div>
+</div>
+<p>first adjacent</p>
+<p>2nd adj</p>
+<p>3rd adj</p>
+<!--pseudo class selector
+1.hover
+2.active
+3.focus
+4.first child
+5.last child
+6.nth child -->
+<div class="pseudo"></div>
+<input type="text" placeholder="name">
+<input type="text" placeholder="age">
+
+<ul>
+    <li>first child</li>
+    <li>second</li>
+    <li>third</li>
+    <li>fourthth</li>
+    <li>fifth</li>
+
+</ul>
+</body>
+</html>
